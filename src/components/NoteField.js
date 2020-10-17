@@ -35,14 +35,16 @@ export class NoteField extends Component {
             //     <Grid item style={{ paddingTop: '50px' }}>
             <Draggable
                 handle='#handle'
-                bounds={{ top: -300, left: -700, right: 700, bottom: 300 }}
+                //bounds={{ top: -300, left: -700, right: 700, bottom: 300 }}
+                bounds="body"
+                
             >
                 <Paper
                     style={{
-                        padding: '0px',
+                        padding: '2px',
                         width: '400px',
                         height: '400px',
-                        margin: '0 auto',
+                       // margin: '0 auto',
                     }}
                     elevation={10}
                 >

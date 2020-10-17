@@ -28,6 +28,7 @@ export class Welcome extends Component {
                         }}
                     >
                         whats up dud
+                        not much
                     </Typography>
                 </Grid>
             </Grid>

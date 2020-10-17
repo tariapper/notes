@@ -58,6 +58,7 @@ class home extends Component {
             })
         })
         console.log(this.state.notes);
+        document.getElementById("display").innerHTML += '<br>'+ text;
     }
 
 
@@ -84,9 +85,10 @@ class home extends Component {
                         </ButtonGroup>
                     </Grid>
                 </Grid>
-                <div id = "display">
-                    
-                    </div>
+                <div id= "display">
+                   
+                </div>
+                
 
             </div>
         );
