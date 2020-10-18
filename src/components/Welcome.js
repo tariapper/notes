@@ -27,8 +27,7 @@ export class Welcome extends Component {
                             fontFamily: 'Arial',
                         }}
                     >
-                        whats up dud
-                        not much
+                        Have a good day.
                     </Typography>
                 </Grid>
             </Grid>
